@@ -3,7 +3,7 @@ import CreateCanvas from './createCanvas.jsx';
 import style from './style.scss';
 import ReactDOM from 'react-dom';
 
-class Mountain extends React.Component {
+class PerlinNoiseFlame extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -42,4 +42,4 @@ class Mountain extends React.Component {
   }
 }
 
-ReactDOM.render(<Mountain />, document.getElementById('root'));
+ReactDOM.render(<PerlinNoiseFlame />, document.getElementById('root'));
